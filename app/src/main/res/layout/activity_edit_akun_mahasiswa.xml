@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAkunDOsen">
+
+
+    <ScrollView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Akun Mahasiswa"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <EditText
+                android:id="@+id/nimEditMahasiswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="15sp"
+                android:background="@drawable/input_background1"
+                android:hint="Masukkan NIM"
+                android:inputType="text"
+                android:padding="10dp"
+                android:layout_marginTop="2dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:textSize="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+            <EditText
+                android:id="@+id/namaEditMahasiswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="15sp"
+                android:background="@drawable/input_background1"
+                android:inputType="text"
+                android:hint="Nama Lengkap "
+                android:padding="10dp"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:inputType="text"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/emailEditMahasiswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="15sp"
+                android:background="@drawable/input_background1"
+                android:hint="Masukkan Email"
+                android:padding="10dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="2dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="15dp"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/passwordEditMahasiswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="15sp"
+                android:background="@drawable/input_background1"
+                android:hint="Masukkan Password"
+                android:padding="10dp"
+
+                android:inputType="textPassword"
+                android:layout_marginTop="2dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/btnSimpanEditMhs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/button_first"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Simpan"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

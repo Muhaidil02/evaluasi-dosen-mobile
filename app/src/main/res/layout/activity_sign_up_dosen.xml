@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpDosen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up!"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="25dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/namaDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:inputType="text"
+            android:hint="Nama Lengkap (Disertai Gelar)"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/emailDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:hint="Masukkan Email"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="2dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/alamatDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:hint="Alamat sesuai KTP"
+            android:padding="10dp"
+            android:inputType="text"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/jenisKelaminDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:hint="Laki-laki / Perempuan"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lamanya Bekerja di UNM"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contoh Jawaban : \n - 0 – 10 tahun
+\n - 10 – 20 tahun
+\n - 20 – 30 tahun
+\n - 30 – 40 tahun"
+            android:textColor="#BCB5B5"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/lamaBekerjaDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:hint="Masukkan sesuai contoh"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Kepegawaian"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contoh Jawaban : \n - Calon Dosen / Asisten Akademik
+\n - Dosen PNS
+\n - Dosen BUMN
+\n - Dosen NIDK"
+            android:textColor="#BCB5B5"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/statusKepegawaianDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:hint="Masukkan sesuai contoh"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jabatan Fungsional"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contoh Jawaban : \n - CPNS
+\n - Asisten Ahli
+\n - Lektor
+\n - Lektor Kepala
+\n - Guru Besar"
+            android:textColor="#BCB5B5"
+            android:layout_marginStart="20dp"/>
+
+        <EditText
+            android:id="@+id/jabatanFungsionalDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:hint="Masukkan sesuai contoh"
+            android:padding="10dp"
+
+            android:inputType="text"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="15dp"
+            android:fontFamily="@font/inter_medium"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/passwordDosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/input_background1"
+            android:hint="Masukkan sesuai contoh"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"/>
+
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_first"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/progresBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Sudah Punya Akun? Login di sini"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Or Register With"
+            android:textColor="#606060"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center"
+            android:layout_marginTop="13dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/facebook"/>
+
+            <ImageView
+                android:id="@+id/google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/google"/>
+
+            <ImageView
+                android:id="@+id/gmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gmail"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

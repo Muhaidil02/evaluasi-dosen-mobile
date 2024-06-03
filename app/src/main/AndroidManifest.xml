@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Epdm"
+        tools:targetApi="31">
+        <activity
+            android:name=".SignInAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".EditAkunDOsen"
+            android:exported="false" />
+        <activity
+            android:name=".AkunAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAkun"
+            android:exported="false" />
+        <activity
+            android:name=".PilihanAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpDosen"
+            android:exported="false" />
+        <activity
+            android:name=".RoleSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SignMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".LoginDosen"
+            android:exported="false" />
+        <activity
+            android:name=".LoginMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".RoleLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MahasiswaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HasilKuesionerAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".DosenPengabdiLayanan"
+            android:exported="false" />
+        <activity
+            android:name=".dosen.DosenLayananPenelitian"
+            android:exported="false" />
+        <activity
+            android:name=".dosen.DosenTataPamong"
+            android:exported="false" />
+        <activity
+            android:name=".LayananKeuangan"
+            android:exported="false" />
+        <activity
+            android:name=".LayananSaranaPrasarana"
+            android:exported="false" />
+        <activity
+            android:name=".LayananKemahasiswaan"
+            android:exported="false" />
+        <activity
+            android:name=".dosen.DosenCivitasSarana"
+            android:exported="false" />
+        <activity
+            android:name=".dosen.DosenCivitasAkademika"
+            android:exported="false" />
+        <activity
+            android:name=".LayananAdministrasiAkademik"
+            android:exported="false" />
+        <activity
+            android:name=".LayananProsesPembelajaran"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

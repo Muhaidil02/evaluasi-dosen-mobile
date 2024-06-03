@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".DosenActivity"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/banner_default"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="110dp"
+                android:src="@drawable/profile_picture_default"
+                app:civ_border_width="0dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/ucapanHaloDosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo Dosen!"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnTataPamong"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:drawableEnd="@drawable/book_icon"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="KEPUASAN DOSEN TERHADAP TATA PAMONG DAN TATA KELOLA"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnlayananpenelitian"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:drawableEnd="@drawable/book_icon"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="KEPUASAN PENELITI TERHADAP LAYANAN DAN PELAKSANAAN PROSES PENELITIAN DI UNM"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnpengabdilayanan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:drawableEnd="@drawable/book_icon"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="KEPUASAN PENGABDI TERHADAP LAYANAN DAN PELAKSANAAN PROSES PENGABDIAN UNM"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btncivitasakademika"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardCornerRadius="4dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:drawableEnd="@drawable/book_icon"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="KEPUASAN CIVITAS AKADEMIKA TERHADAP LAYANAN PENGELOLAAN KEUANGAN"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

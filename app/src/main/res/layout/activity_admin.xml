@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HasilKuesionerAdmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KUESIONER DOSEN"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioer Dosen Tata Pamong"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/hasilDosenTataPamong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/button_second"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioner Layanan Penelitian Dosen"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/resultTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/button_second"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioer Dosen Pengabdi Layanan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/hasilDosenPengabdiLayanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/button_second"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioer Civitas Akademik Layanan Keuangan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/hasilDosenCivitasAkademik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/button_second"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KUESIONER MAHASISWA"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioer Layanan Sarana Prasarana"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/hasilLayananSarana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/button_second"
+                    android:elevation="4dp"
+                    android:padding="16dp"
+                    android:paddingBottom="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioer Layanan Administrasi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/hasilLayananAdministrasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/button_second"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioer Layanan Keuangan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/hasilLayananKeuangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/button_second"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Kuesioer Layanan Pembelajaran"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- ScrollView untuk hasil -->
+        <ScrollView
+            android:id="@+id/scrollView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- TextView untuk setiap pertanyaan dan pilihan -->
+                <TextView
+                    android:id="@+id/hasilLayananPembelajaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/button_second"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
